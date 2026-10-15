@@ -1,0 +1,23 @@
+# Local executables and build output
+/kilo
+/kilo.exe
+/gokilo
+/gokilo.exe
+/bin/
+/dist/
+*.test
+*.test.exe
+
+# Coverage reports
+/coverage.out
+/coverage.html
+*.coverprofile
+
+# Editor backups, swap files, and interrupted saves
+*~
+.*.swp
+.*.swo
+.kilo-save-*.tmp
+
+# macOS metadata
+.DS_Store
