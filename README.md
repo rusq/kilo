@@ -2,7 +2,8 @@
 
 A small terminal text editor written in Go, based on Salvatore Sanfilippo's
 [Kilo](https://github.com/antirez/kilo). Use it as a command-line editor or embed
-the `kilo` package in a Go application.
+the `kilo` package in a Go application.  Apart from that, both C-source and Go
+sources are extended to highlight SQL keywords.
 
 The editor uses [tcell](https://github.com/gdamore/tcell) for terminal rendering
 and includes:
